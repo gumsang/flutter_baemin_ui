@@ -75,10 +75,9 @@ class _BaeminMainState extends State<BaeminMain> {
                       ),
                       elevation: 1,
                       child: Container(
-                        height: 200,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
+                          color: const Color.fromARGB(255, 255, 255, 255),
                         ),
                         child: Image.asset(
                           "assets/baemin1.png",
@@ -95,10 +94,9 @@ class _BaeminMainState extends State<BaeminMain> {
                       ),
                       elevation: 1,
                       child: Container(
-                        height: 200,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
+                          color: const Color.fromARGB(255, 255, 255, 255),
                         ),
                         child: Image.asset(
                           "assets/baedal.png",
@@ -116,10 +114,9 @@ class _BaeminMainState extends State<BaeminMain> {
                 ),
                 elevation: 1,
                 child: Container(
-                  height: 80,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: const Color.fromARGB(255, 255, 255, 255),
                   ),
                   child: Image.asset(
                     "assets/pojang.png",
@@ -137,10 +134,9 @@ class _BaeminMainState extends State<BaeminMain> {
                       ),
                       elevation: 1,
                       child: Container(
-                        height: 110,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
+                          color: const Color.fromARGB(255, 255, 255, 255),
                         ),
                         child: Image.asset(
                           "assets/bmart.png",
@@ -157,10 +153,9 @@ class _BaeminMainState extends State<BaeminMain> {
                       ),
                       elevation: 1,
                       child: Container(
-                        height: 110,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
+                          color: const Color.fromARGB(255, 255, 255, 255),
                         ),
                         child: Image.asset(
                           "assets/milkit.png",
@@ -178,10 +173,9 @@ class _BaeminMainState extends State<BaeminMain> {
                 ),
                 elevation: 1,
                 child: Container(
-                  height: 80,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: const Color.fromARGB(255, 255, 255, 255),
                   ),
                   child: Image.asset(
                     "assets/baeminstore.png",
@@ -199,10 +193,9 @@ class _BaeminMainState extends State<BaeminMain> {
                       ),
                       elevation: 1,
                       child: Container(
-                        height: 80,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
+                          color: const Color.fromARGB(255, 255, 255, 255),
                         ),
                         child: Image.asset(
                           "assets/shoppinglive.png",
@@ -219,10 +212,9 @@ class _BaeminMainState extends State<BaeminMain> {
                       ),
                       elevation: 1,
                       child: Container(
-                        height: 80,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
+                          color: const Color.fromARGB(255, 255, 255, 255),
                         ),
                         child: Image.asset(
                           "assets/gift.png",
@@ -239,10 +231,9 @@ class _BaeminMainState extends State<BaeminMain> {
                       ),
                       elevation: 1,
                       child: Container(
-                        height: 80,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
+                          color: const Color.fromARGB(255, 255, 255, 255),
                         ),
                         child: Image.asset(
                           "assets/byulme.png",
