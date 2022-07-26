@@ -80,6 +80,10 @@ class _BaeminMainState extends State<BaeminMain> {
                           borderRadius: BorderRadius.circular(20),
                           color: Color.fromARGB(255, 255, 255, 255),
                         ),
+                        child: Image.asset(
+                          "assets/baemin1.png",
+                          fit: BoxFit.fill,
+                        ),
                       ),
                     ),
                   ),
@@ -96,55 +100,9 @@ class _BaeminMainState extends State<BaeminMain> {
                           borderRadius: BorderRadius.circular(20),
                           color: Color.fromARGB(255, 255, 255, 255),
                         ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              Card(
-                color: const Color.fromARGB(0, 0, 0, 0),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20.0),
-                ),
-                elevation: 1,
-                child: Container(
-                  height: 80,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    color: Color.fromARGB(255, 255, 255, 255),
-                  ),
-                ),
-              ),
-              Row(
-                children: [
-                  Flexible(
-                    child: Card(
-                      color: const Color.fromARGB(0, 0, 0, 0),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.0),
-                      ),
-                      elevation: 1,
-                      child: Container(
-                        height: 110,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Flexible(
-                    child: Card(
-                      color: const Color.fromARGB(0, 0, 0, 0),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.0),
-                      ),
-                      elevation: 1,
-                      child: Container(
-                        height: 110,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
+                        child: Image.asset(
+                          "assets/baedal.png",
+                          fit: BoxFit.fill,
                         ),
                       ),
                     ),
@@ -163,6 +121,72 @@ class _BaeminMainState extends State<BaeminMain> {
                     borderRadius: BorderRadius.circular(20),
                     color: Color.fromARGB(255, 255, 255, 255),
                   ),
+                  child: Image.asset(
+                    "assets/pojang.png",
+                    fit: BoxFit.fill,
+                  ),
+                ),
+              ),
+              Row(
+                children: [
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 110,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                        child: Image.asset(
+                          "assets/bmart.png",
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 110,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                        child: Image.asset(
+                          "assets/milkit.png",
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              Card(
+                color: const Color.fromARGB(0, 0, 0, 0),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0),
+                ),
+                elevation: 1,
+                child: Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: Color.fromARGB(255, 255, 255, 255),
+                  ),
+                  child: Image.asset(
+                    "assets/baeminstore.png",
+                    fit: BoxFit.fill,
+                  ),
                 ),
               ),
               Row(
@@ -180,21 +204,9 @@ class _BaeminMainState extends State<BaeminMain> {
                           borderRadius: BorderRadius.circular(20),
                           color: Color.fromARGB(255, 255, 255, 255),
                         ),
-                      ),
-                    ),
-                  ),
-                  Flexible(
-                    child: Card(
-                      color: const Color.fromARGB(0, 0, 0, 0),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.0),
-                      ),
-                      elevation: 1,
-                      child: Container(
-                        height: 80,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Color.fromARGB(255, 255, 255, 255),
+                        child: Image.asset(
+                          "assets/shoppinglive.png",
+                          fit: BoxFit.fill,
                         ),
                       ),
                     ),
@@ -211,6 +223,30 @@ class _BaeminMainState extends State<BaeminMain> {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                        child: Image.asset(
+                          "assets/gift.png",
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 80,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                        child: Image.asset(
+                          "assets/byulme.png",
+                          fit: BoxFit.fill,
                         ),
                       ),
                     ),
