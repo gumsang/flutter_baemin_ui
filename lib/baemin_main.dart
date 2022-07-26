@@ -34,9 +34,9 @@ class _BaeminMainState extends State<BaeminMain> {
           IconButton(onPressed: () {}, icon: const Icon(Icons.face)),
         ],
       ),
-      body: GestureDetector(
-        onTap: () => FocusScope.of(context).unfocus(),
-        child: SingleChildScrollView(
+      body: SingleChildScrollView(
+        child: GestureDetector(
+          onTap: () => FocusScope.of(context).unfocus(),
           child: Column(
             children: [
               Stack(
@@ -48,6 +48,7 @@ class _BaeminMainState extends State<BaeminMain> {
                     child: TextField(
                       decoration: InputDecoration(
                         hintText: "치즈쭈꾸미 나와라 뚝딱!!!",
+                        border: UnderlineInputBorder(),
                         filled: true,
                         fillColor: Colors.white,
                         prefixIcon: const Icon(Icons.search),
@@ -62,6 +63,158 @@ class _BaeminMainState extends State<BaeminMain> {
                       keyboardType: TextInputType.text,
                     ),
                   )
+                ],
+              ),
+              Row(
+                children: [
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 200,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 200,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              Card(
+                color: const Color.fromARGB(0, 0, 0, 0),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0),
+                ),
+                elevation: 1,
+                child: Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: Color.fromARGB(255, 255, 255, 255),
+                  ),
+                ),
+              ),
+              Row(
+                children: [
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 110,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 110,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              Card(
+                color: const Color.fromARGB(0, 0, 0, 0),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0),
+                ),
+                elevation: 1,
+                child: Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: Color.fromARGB(255, 255, 255, 255),
+                  ),
+                ),
+              ),
+              Row(
+                children: [
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 80,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 80,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Flexible(
+                    child: Card(
+                      color: const Color.fromARGB(0, 0, 0, 0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      elevation: 1,
+                      child: Container(
+                        height: 80,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ],
